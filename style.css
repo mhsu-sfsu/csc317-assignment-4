@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
 
 * {
@@ -43,4 +46,92 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+html{
+  height:100%;
+}
+
+*{
+  font-size:10px;
+  line-height:2;
+  background-color: floralwhite;
+  font-family:'Lato';
+}
+
+title, h1, h2{
+  font-family:'Quattrocento';
+}
+
+body{
+  width:100vw;
+  border-color:#a66;
+}
+
+header, footer, footer p{
+  background-color: rgb(200, 169, 169);
+}
+
+header, footer{
+  text-align: center;
+}
+
+h1{
+  font-size:32px;
+  letter-spacing: 2px;
+  background-color: rgb(200, 169, 169);
+}
+
+h2{
+  font-size:24px;
+  letter-spacing: 1px;
+}
+
+p{
+  letter-spacing: .5px;
+  text-indent: 1.25rem;
+}
+
+a{
+  color: rgb(107, 37, 37);
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+
+  background-size: 100%;
+  background-image: url("external-link-52.png");
+}
+
+a:hover, a:visited, a:focus{
+  color:#a66;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+a:active{
+  color: rgb(200, 34, 34);
+}
+
+nav{
+  font-size: 20px;
+}
+
+nav li{
+  list-style-type: none;
+  line-height: 5;
+}
+
+aside li {
+  list-style-type: circle;
+}
+
+nav a {
+  font-size: 18px;
+}
 
